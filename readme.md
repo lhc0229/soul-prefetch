@@ -297,8 +297,8 @@ style: css
 
 
 
-soul-webpack-prefetch可以完美解决这个问题，soul-webpack-prefetch会在用户导航到指定的路由后，在浏览器空闲时，结合requestIdleCallback+网络环境+并发控制(默认最多同时进行3个prefetch)，去进行预请求可能需要的静态资源，从而优化用户的体验
+soul-prefetch可以完美解决这个问题，soul-prefetch会在用户导航到指定的路由后，在浏览器空闲时，结合requestIdleCallback+网络环境+并发控制(默认最多同时进行3个prefetch)，去进行预请求可能需要的静态资源，从而优化用户的体验
 
 
 
-同时支持在微前端应用中，在主应用中配置micro_list参数，soul-webpack-prefetch会解析子应用路由的入口文件html，预获取子应用的入口所需的静态资源
+同时支持在微前端应用中，在主应用中配置micro_list参数，soul-prefetch会解析子应用路由的入口文件html，预获取子应用的入口所需的静态资源
