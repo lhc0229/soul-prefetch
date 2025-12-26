@@ -1,0 +1,6 @@
+.idea
+scripts
+src
+build.js
+package.json
+package-lock.json
